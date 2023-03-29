@@ -1,0 +1,109 @@
+.contact{
+    background-color: var(--second-bg-color);
+    
+}
+.contact-form{
+position: relative;
+/* top: 50%; */
+width: 100%;
+top: 13.5rem;
+margin-bottom: 14rem;
+/* height: 50%; */
+}
+
+.contact-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2.5rem;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    top: 9rem;
+    width: 82%;
+}
+.contact-box{
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding:2rem 0rem 2rem 0rem;
+}
+.contact-box h2{
+    color: #000;
+    font-size: 2.5rem;
+}
+.contact-box p{
+    font-size: 1.6rem;
+    color: #000;
+}
+.contact-form{
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem;
+}
+.contact-body{
+    width: 48%;
+}
+
+.contact-input-box{
+    width: 100%;
+    margin-top: 1rem;
+}
+.contact-input-box label{
+    font-size: 1.6rem;
+    margin-left: 1.6rem;
+    
+}
+.contact-input-box input{
+    width: 100%;
+    font-size: 1.6rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    margin-top: .5rem;
+}
+.contact-input-box textarea{
+width: 100%;
+padding: 1rem;
+height: 10rem;
+border-radius: 2rem;
+}
+.contact-para{
+    width: 48%;
+    margin-top: 1rem;
+}
+.contact-para h2{
+    font-size: 3.5rem;
+    font-weight: normal;
+}
+.para-one{
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    font-style: italic;
+    font-weight: normal;
+}
+.para-two{
+    margin-top: 2.5rem;
+    font-size: 1.6rem; 
+}
+.contact-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.contact-btn button{
+    cursor: pointer;
+    width: 50%;
+    padding: 2rem !important;
+    font-size: 1.6rem;
+    /* color: var(--text-color); */
+}
+.box{
+    clip-path: ellipse(100px 80px at center);
+}
+.box{
+    background-color: #000;
+    clip-path: ellipse(100px at 100px 100px)
+    /* clip-path: polygon(50% 0%,100% 50%,50% 100%, 0 50%); */
+}
+
