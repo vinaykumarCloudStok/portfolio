@@ -1,9 +1,9 @@
 import React from 'react'
-import '../Banner/banner.css'
+import '../OurServices/ourservices.css'
 import { Link } from 'react-router-dom'
 import port from '../../assets/portfolio.jpg'
 import {BiLinkExternal} from 'react-icons/bi'
-const Portfolio = () => {
+const OurServices = () => {
     const data = [{name:"Website Design"},{name:"App Developement"},{name:"Responsive Web Design"},
     {name:"SEO"},{name:"Content Type"},{name:"DevOps"}
 
@@ -31,4 +31,4 @@ const Portfolio = () => {
   )
 }
 
-export default Portfolio
+export default OurServices

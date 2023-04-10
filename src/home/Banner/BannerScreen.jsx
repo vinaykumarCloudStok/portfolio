@@ -1,15 +1,13 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Typed from "typed.js";
 import { useEffect, useRef } from "react";
 import Fade from 'react-reveal/Fade';
-import {MdDelete} from 'react-icons/md'
+
 import { Link } from 'react-router-dom';
 import '../Banner/banner.css'
 import {BsFacebook,BsInstagram,BsLinkedin,BsTwitter} from 'react-icons/bs'
 const BannerScreen = () => {
   const el = useRef(null);
-  const [inputUser,setInputUser] = useState("");
-  const [items,setItems] = useState([])
   useEffect(() => {
     const typed = new Typed(el.current, {
       strings: ["Frontend Developer", "Youtuber", "Blogger", "More Strings"], // Strings to display
@@ -49,10 +47,11 @@ const BannerScreen = () => {
      </div>
      <Link className='cv-btn'> Download CV </Link>
 </div>
-</Fade>
+
 <div className="home-img">
-  <img src="" alt="" />
+  <div className="border-img"></div>
 </div>
+</Fade>
     </section>
     </>
   )

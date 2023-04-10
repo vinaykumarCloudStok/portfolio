@@ -13,6 +13,8 @@ padding: 2rem 9%;
 
 .logo-header p{
     font-size: 1.7rem;
+    display: flex;
+    align-items: center;
 }
 .header.colorChange{
     background-color: #000;
@@ -43,6 +45,9 @@ padding: 2rem 9%;
     cursor: pointer;
 }
 @media (max-width:768px) {
+    .header{
+        flex-direction: row-reverse;
+    }
     .nav-item{
         position:fixed;
         left: 120%;
@@ -53,6 +58,9 @@ padding: 2rem 9%;
     }
     .menu-btn{
         display: block;
+    }
+    .nav-item li{
+        margin-top: 1rem;
     }
     .active-menu{
         position:absolute;
@@ -66,11 +74,13 @@ padding: 2rem 9%;
         width: 100%;
         background: rgb(5, 68, 104);
     }
-    .nav-item li a{
-        display: block;
-        color: white;
-        margin: 1rem 3rem 1rem 3rem;
-        text-align: left;
+    .navlink{
+   display: block;
+  text-align: center;
     }
-
+  .activeLink{
+    display: block;
+   text-align: center;
+  
+  }
 }

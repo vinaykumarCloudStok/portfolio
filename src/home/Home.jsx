@@ -1,14 +1,15 @@
 import React from 'react'
 import Layout from '../layout/Layout'
 import BannerScreen from './Banner/BannerScreen'
-import Portfolio from './portfolio/Portfolio'
+import OurServices from './OurServices/OurServices'
+
 
 const Home = () => {
   return (
     <>
-<Layout>
+<Layout >
 <BannerScreen/>
-<Portfolio/>
+<OurServices/>
 </Layout>
    
    

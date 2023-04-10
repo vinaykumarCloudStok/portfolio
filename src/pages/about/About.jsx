@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import Layout from '../layout/Layout'
-
+import Layout from '../../layout/Layout'
+import '../about/about.css'
 const About = () => {
   const [user,setUser] = useState()
   const handleChange=()=>{
@@ -8,16 +8,19 @@ const About = () => {
   }
   return (
     <Layout>
-        <section>
-        <div className="stack-container">
-          <div className="stack-input-box">
-            <input type="text" name="" id="" onChange={handleChange}/>
-            <button>Add</button>
-          </div>
-          <div className="container">
-         
-          </div>
-        </div>
+  <section>
+    <div className="about-container">
+      <div className="about-content">
+        <h2>About Me</h2>
+      </div>
+      <div className="about-img"></div>
+    </div>
+  {/* <div class="turtle">
+  <div class="head"></div>
+  <div class="tail"></div>
+  <div class="foot front"></div>
+  <div class="foot back"></div>
+</div> */}
      {/* <div className='wrapper'>
       <div className='thred'></div>
       <div className='thred-1'></div>
@@ -37,9 +40,7 @@ const About = () => {
    <p>  plant for tree</p>
      </div>
   </div> */}
- 
-  
-        </section>
+   </section>
     </Layout>
   )
 }

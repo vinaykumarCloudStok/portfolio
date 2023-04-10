@@ -51,12 +51,19 @@
 
 // export default PortFolio;
 import React from 'react'
-
+import Layout from '../../layout/Layout'
+import '../portfolio/port.css'
 const PortFolio = () => {
   return (
-   <section>
-    PortFolio
+ <Layout>
+    <section>
+  <div className='center' id='loop'></div>
+  <div className="center" id='bike-wrapper'>
+    <div id='bike' className='centerBike'></div>
+  </div>
+  <div className="glass"></div>
    </section>
+ </Layout>
   )
 }
 
